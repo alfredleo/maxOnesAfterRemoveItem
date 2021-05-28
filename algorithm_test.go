@@ -41,9 +41,6 @@ func maxOnesAfterRemoveItem(arr []byte) uint {
 	return uint(max)
 }
 
-/**
-
- */
 func checkMax(first int, second int, max int) int {
 	sum := first + second
 	if max < sum {
